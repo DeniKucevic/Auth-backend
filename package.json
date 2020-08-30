@@ -1,0 +1,32 @@
+{
+  "name": "auth-backend",
+  "version": "1.0.0",
+  "description": "Backend for authenticating users",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeniKucevic/Auth-backend.git"
+  },
+  "author": " <Brixi/>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeniKucevic/Auth-backend/issues"
+  },
+  "homepage": "https://github.com/DeniKucevic/Auth-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
